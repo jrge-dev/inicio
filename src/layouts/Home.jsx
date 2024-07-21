@@ -2,11 +2,11 @@ import imageDeveloper from "../assets/image-developer.svg";
 function Home() {
   return (
     <>
-      <div className="flex justify-between items-center p-10">
-        <div>
-          <img className="w-full h-full" src={imageDeveloper} alt="image developer" />
+      <div className="flex justify-between items-center p-10 w-full max-w-screen">
+        <div className="w-full h-full">
+          <img src={imageDeveloper} alt="image developer" />
         </div>
-        <div className="text-4xl">
+        <div className="w-full h-full text-4xl">
           <p className="text-blue-500 font-bold text-5xl">¡Hola!</p>
           <br />
           <p>Mi nombre es <b>Jorge Moya</b></p> <br />

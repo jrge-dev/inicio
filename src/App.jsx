@@ -1,6 +1,7 @@
 import Header from "./components/Header"
 import Home from "./layouts/Home"
 import './index.css'
+import HomeView from "./views/HomeView"
 
 function App() {
   
@@ -8,7 +9,8 @@ function App() {
   return (
     <>
       {/* <Header/> */}
-      <Home/>
+      {/* <Home/> */}
+      <HomeView/>
     </>
   )
 }
