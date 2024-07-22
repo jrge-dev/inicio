@@ -2,6 +2,7 @@ import Header from "./components/Header"
 import Home from "./layouts/Home.layout"
 import './index.css'
 import HomeView from "./views/Home.view"
+import Card from "./components/Card"
 
 function App() {
   
@@ -10,7 +11,8 @@ function App() {
     <>
       {/* <Header/> */}
       {/* <Home/> */}
-      <HomeView/>
+      {/* <HomeView/> */}
+      <Card/>
     </>
   )
 }
