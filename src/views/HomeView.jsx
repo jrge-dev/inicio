@@ -1,5 +1,5 @@
 import Header from "../components/Header"
-import Home from "../layouts/Home"
+import Home from "../layouts/Home.layout"
 
 function HomeView() {
     

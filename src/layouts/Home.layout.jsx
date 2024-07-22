@@ -6,10 +6,11 @@ function Home() {
         <div className="w-full h-full">
           <img src={imageDeveloper} alt="image developer" />
         </div>
-        <div className="w-full h-full text-4xl">
-          <p className="text-blue-500 font-bold text-5xl">¡Hola!</p>
-          <br />
-          <p>Mi nombre es <b>Jorge Moya</b></p> <br />
+        <div className="w-full h-full text-4xl ">
+          <p className="text-blue-500 font-bold text-5xl mb-4 ">¡Hola!</p>
+          <p className="mb-2">
+            Mi nombre es <b>Jorge Moya</b>
+          </p>
           <p>Soy un desarrollador de software junior.</p>
         </div>
       </div>
