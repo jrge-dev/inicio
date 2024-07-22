@@ -2,7 +2,7 @@ import imageDeveloper from "../assets/image-developer.svg";
 function Home() {
   return (
     <>
-      <div className="flex justify-between items-center p-10 w-full max-w-screen">
+      <div className="flex justify-between items-center px-20 w-full max-w-screen">
         <div className="w-full h-full">
           <img src={imageDeveloper} alt="image developer" />
         </div>
