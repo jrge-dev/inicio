@@ -1,5 +1,7 @@
 import { useState } from "react";
 import icon from "../assets/bug.svg";
+import Menu from "../assets/menu.svg";
+import Close from "../assets/close.svg";
 
 function Header() {
   const [isMenuOpen, setIsMenuIsOpen] = useState(false);
@@ -15,7 +17,7 @@ function Header() {
         </div>
 
         <button className="absolute right-4  sm:hidden" onClick={toggleMenu}>
-          {isMenuOpen ? <p>cerrar</p> : <p>abrir</p>}
+          {!isMenuOpen ? <img src={Menu} alt="" /> : <img src={Close} alt="" /> }
         </button>
 
         <nav
