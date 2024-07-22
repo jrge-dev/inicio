@@ -3,8 +3,17 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "Poppins", sans-serif;
-  src: url("./assets/font/Poppins.zip");
+  font-family: "Poppins";
+  src: url("./assets/font/Poppins-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/font/Poppins-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
 }
 
 body{

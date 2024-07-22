@@ -3,7 +3,7 @@ import icon from "../assets/bug.svg";
 function Header() {
   return (
     <>
-      <header className="flex justify-between text-lg p-4">
+      <header className="flex justify-between font-bold text-lg p-4">
         <div className="flex space-x-6 h-6 font-bold">
           <img src={icon} alt="" /> <h3>Jorge Moya</h3>
         </div>
