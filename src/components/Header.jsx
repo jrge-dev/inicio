@@ -15,7 +15,7 @@ function Header() {
         </div>
 
         <button className="absolute right-4  sm:hidden" onClick={toggleMenu}>
-          {isMenuOpen ? <p>abrir</p> : <p>cerrar</p>}
+          {isMenuOpen ? <p>cerrar</p> : <p>abrir</p>}
         </button>
 
         <nav
