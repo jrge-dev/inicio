@@ -1,13 +1,16 @@
 import Header from "../components/Header";
-import Home from "../layouts/Home.layout";
+import HomeLayout from "../layouts/Home.layout";
+import Footer from "../components/Footer";
+
 
 function HomeView() {
   return (
     <>
       <Header />
       <div className="w-auto h-auto">
-        <Home />
+        <HomeLayout />
       </div>
+      <Footer />
     </>
   );
 }

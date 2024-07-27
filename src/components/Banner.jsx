@@ -1,0 +1,18 @@
+import React from "react";
+import Github from "../assets/github.svg";
+import Linkedin from "../assets/linkedin.svg";
+
+const Banner = () => {
+  return (
+    <div className="flex space-x-4 justify-start">
+      <a href="https://github.com/jl999l">
+        <img className="w-7 h-7" src={Github} alt="" />
+      </a>
+      <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+        <img className="w-7 h-7" src={Linkedin} alt="" />
+      </a>
+    </div>
+  );
+};
+
+export default Banner;
