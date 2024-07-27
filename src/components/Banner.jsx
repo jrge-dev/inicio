@@ -8,7 +8,7 @@ const Banner = () => {
       <a href="https://github.com/jl999l">
         <img className="w-7 h-7" src={Github} alt="" />
       </a>
-      <a href="www.linkedin.com/in/jorge-luis-moya-moya">
+      <a href="https://www.linkedin.com/in/jorge-luis-moya-moya/">
         <img className="w-7 h-7" src={Linkedin} alt="" />
       </a>
     </div>
