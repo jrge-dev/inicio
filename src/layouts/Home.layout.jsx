@@ -2,6 +2,9 @@ import imageDeveloper from "../assets/image-developer.svg";
 import Card from "../components/Card";
 import Database from "../assets/database.svg";
 import Frontend from "../assets/frontend.svg";
+import Banner from "../components/Banner";
+import Cpu from "../assets/cpu.svg";
+
 function Home() {
   const cardcontent = [
     {
@@ -18,35 +21,36 @@ function Home() {
     },
     {
       id: 3,
-      icon: {},
-      title: "NOT DEFIEND",
-      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework. manejo de conceptos sobre bases de datos relacionales y no relacionales",
-    },
-    {
-      id: 4,
-      icon: {},
-      title: "HOLA SOY NUEVA",
-      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework. manejo de conceptos sobre bases de datos relacionales y no relacionales",
+      icon: Cpu,
+      title: "Informática",
+      body: "Conocimientos intermedios en sistemas operativos y fundamentos de computación en la nube (AWS).",
     },
   ];
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex flex-col-reverse  sm:flex-row justify-between items-center px-20 w-full max-w-screen">
-          <div className="w-full h-full">
-            <img src={imageDeveloper} alt="image developer" />
-          </div>
-          <div className="w-full h-full text-xl sm:text-xl">
+        <div className="flex flex-col sm:flex-row justify-between items-center px-20 w-full max-w-screen">
+          <div className="w-full h-full text-left text-xl sm:text-3xl">
             <p className="text-blue-500 font-bold text-4xl sm:text-5xl mb-4 ">
               ¡Hola!
             </p>
             <p className="mb-2">
               Mi nombre es <b>Jorge Moya</b>
             </p>
-            <p>Soy un desarrollador de software junior.</p>
+            <p className="mb-3 sm:mb-10">
+              Soy un desarrollador de software junior.
+            </p>
+
+            <Banner />
+          </div>
+          <div className="mt-10 sm:mt-0 w-full h-full sm:px-20">
+            <img src={imageDeveloper} alt="image developer" />
           </div>
         </div>
-        <h3 className=" text-xl mb-10 text-center">Tecnologías</h3>
+
+        <h3 className="font-bold text-4xl mt-20 m-10 text-center">
+          Tecnologías
+        </h3>
 
         <div className="flex  space-y-5 flex-col items-center sm:space-y-0 sm:flex-row sm:space-x-10 justify-center">
           {cardcontent.map((content) => (
@@ -54,7 +58,6 @@ function Home() {
               <p>{content.body}</p>
             </Card>
           ))}
-          ;
         </div>
       </div>
     </>
