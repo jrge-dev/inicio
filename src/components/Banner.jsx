@@ -1,10 +1,16 @@
-import React from 'react';
+import React from "react";
+import Github from "../assets/github.svg";
+import Linkedin from "../assets/linkedin.svg";
 
 const Banner = () => {
   return (
-    <div className="bg-blue-500 text-white p-4">
-      <h2 className="text-2xl font-bold">Bienvenido a mi portafolio</h2>
-      <p className="mt-2">Explora mis proyectos y habilidades</p>
+    <div className="flex space-x-4 justify-start">
+      <a href="https://github.com/jl999l">
+        <img className="w-7 h-7" src={Github} alt="" />
+      </a>
+      <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+        <img className="w-7 h-7" src={Linkedin} alt="" />
+      </a>
     </div>
   );
 };
