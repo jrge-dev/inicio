@@ -13,7 +13,7 @@ function Footer() {
           <a href="https://github.com/jl999l" className="hover:text-gray-400 transition duration-300">
             <img  src={Github} alt="GitHub" className="w-6 h-6 filter invert" />
           </a>
-          <a href="www.linkedin.com/in/jorge-luis-moya-moya" className="hover:text-gray-400 transition duration-300">
+          <a href="https://www.linkedin.com/in/jorge-luis-moya-moya/" className="hover:text-gray-400 transition duration-300">
             <img src={Linkedin} alt="LinkedIn" className="w-6 h-6 filter invert" />
           </a>
         </div>
