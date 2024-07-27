@@ -11,7 +11,7 @@ function Home() {
       id: 1,
       icon: Database,
       title: "Back-end",
-      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework. manejo de conceptos sobre bases dedatos relacionales y no relacionales.",
+      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework. manejo de conceptos sobre bases de datos relacionales y no relacionales.",
     },
     {
       id: 2,
