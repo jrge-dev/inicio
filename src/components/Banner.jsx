@@ -5,10 +5,10 @@ import Linkedin from "../assets/linkedin.svg";
 const Banner = () => {
   return (
     <div className="flex space-x-4 justify-start">
-      <a href="https://github.com/jl999l">
+      <a target="__blank" href="https://github.com/jrge-dev">
         <img className="w-7 h-7 dark:filter dark:invert" src={Github} alt="" />
       </a>
-      <a href="https://www.linkedin.com/in/jorge-luis-moya-moya/">
+      <a target="__blank" href="https://www.linkedin.com/in/jorge-luis-moya-moya/">
         <img className="w-7 h-7 dark:filter dark:invert " src={Linkedin} alt="" />
       </a>
     </div>

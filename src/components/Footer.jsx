@@ -10,10 +10,10 @@ function Footer() {
           © 2024 Jorge Moya.
         </p>
         <div className="flex space-x-4 ">
-          <a href="https://github.com/jl999l" className="hover:text-gray-400 transition duration-300">
+          <a target="__blank" href="https://github.com/jrge-dev" className="hover:text-gray-400 transition duration-300">
             <img  src={Github} alt="GitHub" className="w-6 h-6 filter invert" />
           </a>
-          <a href="https://www.linkedin.com/in/jorge-luis-moya-moya/" className="hover:text-gray-400 transition duration-300">
+          <a target="__blank" href="https://www.linkedin.com/in/jorge-luis-moya-moya/" className="hover:text-gray-400 transition duration-300">
             <img src={Linkedin} alt="LinkedIn" className="w-6 h-6 filter invert" />
           </a>
         </div>
