@@ -16,7 +16,7 @@ function Header() {
           <img className="w-5 h-5" src={icon} alt="" /> <h3>Jorge Moya</h3>
         </div>
 
-        <button className="absolute right-4  sm:hidden" onClick={toggleMenu}>
+        <button className="absolute right-4 dark:filter dark:invert  sm:hidden" onClick={toggleMenu}>
           {!isMenuOpen ? <img src={Menu} alt="" /> : <img src={Close} alt="" /> }
         </button>
 
