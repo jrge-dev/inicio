@@ -24,7 +24,7 @@ function Header() {
           className={`flex flex-col sm:flex-row ${isMenuOpen ? 'block mb-4' : 'hidden'} sm:block items-center space-y-4 sm:space-y-0  sm:space-x-12`}
         >
           <a href="#home">Inicio</a>
-          <a href="">Sobre mi</a>
+          <a href="#aboutme">Sobre mi</a>
           <a href="#technologies">Tecnologías</a>
         </nav>
       </header>
