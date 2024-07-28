@@ -4,6 +4,7 @@ import Database from "../assets/database.svg";
 import Frontend from "../assets/frontend.svg";
 import Banner from "../components/Banner";
 import Cpu from "../assets/cpu.svg";
+import AboutmeLayout from "./Aboutme.layout";
 
 function Home() {
   const cardcontent = [
@@ -48,7 +49,12 @@ function Home() {
           </div>
         </div>
 
-        <h3 id="technologies" className="font-bold text-2xl mt-20 m-10 text-center">
+        <AboutmeLayout />
+
+        <h3
+          id="technologies"
+          className="font-bold text-2xl mt-20 m-10 text-center"
+        >
           Tecnologías
         </h3>
 
