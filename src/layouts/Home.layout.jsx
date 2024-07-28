@@ -48,7 +48,7 @@ function Home() {
           </div>
         </div>
 
-        <h3 className="font-bold text-2xl mt-20 m-10 text-center">
+        <h3 id="technologies" className="font-bold text-2xl mt-20 m-10 text-center">
           Tecnologías
         </h3>
 
