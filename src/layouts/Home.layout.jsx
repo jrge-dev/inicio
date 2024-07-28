@@ -12,7 +12,7 @@ function Home() {
       id: 1,
       icon: Database,
       title: "Back-end",
-      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework. manejo de conceptos sobre bases de datos relacionales y no relacionales.",
+      body: "Conocimientos en lenguajes como python, java y c# y nociones sobre django, flask, rest-framework y manejo de conceptos sobre bases de datos relacionales y no relacionales.",
     },
     {
       id: 2,
@@ -24,7 +24,7 @@ function Home() {
       id: 3,
       icon: Cpu,
       title: "Informática",
-      body: "Conocimientos intermedios en sistemas operativos y fundamentos de computación en la nube (AWS).",
+      body: "Conocimientos en sistemas operativos, redes y fundamentos de computación en la nube (AWS).",
     },
   ];
   return (
