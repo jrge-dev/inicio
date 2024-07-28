@@ -6,10 +6,10 @@ const Banner = () => {
   return (
     <div className="flex space-x-4 justify-start">
       <a href="https://github.com/jl999l">
-        <img className="w-7 h-7" src={Github} alt="" />
+        <img className="w-7 h-7 dark:filter dark:invert" src={Github} alt="" />
       </a>
       <a href="https://www.linkedin.com/in/jorge-luis-moya-moya/">
-        <img className="w-7 h-7" src={Linkedin} alt="" />
+        <img className="w-7 h-7 dark:filter dark:invert " src={Linkedin} alt="" />
       </a>
     </div>
   );
