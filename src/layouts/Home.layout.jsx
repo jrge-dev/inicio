@@ -33,13 +33,13 @@ function Home() {
         <div className="flex flex-col sm:flex-row justify-between items-center px-20 w-full max-w-screen">
           <div className="w-full h-full text-left text-xl sm:text-3xl">
             <p className="text-blue-500 font-bold text-4xl sm:text-5xl mb-4 ">
-              ¡Hola!
+              ¡Hola me llamo!
             </p>
             <p className="mb-2">
-              Mi nombre es <b>Jorge Moya</b>
+              <b>Jorge</b>
             </p>
             <p className="mb-3 sm:mb-10">
-              Soy un desarrollador de software junior.
+              Desarrollador de software <span> Curioso por naturaleza y con muchas ganas de seguir aprendiendo</span>
             </p>
 
             <Banner />
