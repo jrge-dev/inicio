@@ -4,7 +4,7 @@ import Linkedin from "../assets/linkedin.svg";
 
 const Banner = () => {
   return (
-    <div className="flex space-x-4 justify-start">
+    <div className="flex space-x-8 justify-center">
       <a target="__blank" href="https://github.com/jrge-dev">
         <img className="w-7 h-7 dark:filter dark:invert" src={Github} alt="" />
       </a>
