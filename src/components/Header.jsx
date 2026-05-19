@@ -11,21 +11,27 @@ function Header() {
   };
   return (
     <>
-      <header id="home" className=" p-4 flex flex-col sm:flex-row sm:justify-between sm:text-lg">
-        <a href="#home" className="flex mb-10 sm:mb-0  space-x-6 h-6 font-bold">
+      <header
+        id="home"
+        className="dark:bg-slate-800 dark:text-white p-4 flex flex-col  md:flex-row md:justify-between md:text-lg"
+      >
+        <a href="#home" className="flex space-x-6 h-6 font-bold">
           <img className="w-5 h-5" src={icon} alt="" /> <h3>Jorge Moya</h3>
         </a>
 
-        <button className="absolute right-4 dark:filter dark:invert  sm:hidden" onClick={toggleMenu}>
-          {!isMenuOpen ? <img src={Menu} alt="" /> : <img src={Close} alt="" /> }
+        <button
+          className="absolute right-4 dark:filter dark:invert  md:hidden"
+          onClick={toggleMenu}
+        >
+          {!isMenuOpen ? <img src={Menu} alt="" /> : <img src={Close} alt="" />}
         </button>
 
         <nav
-          className={`flex flex-col sm:flex-row ${isMenuOpen ? 'block mb-4' : 'hidden'} sm:block items-center space-y-4 sm:space-y-0  sm:space-x-12`}
+          className={`flex flex-col md:flex-row ${isMenuOpen ? "block mb-4" : "hidden"} md:block items-center space-y-4 md:space-y-0  md:space-x-12`}
         >
           <a href="#home">Inicio</a>
           <a href="#aboutme">Sobre mi</a>
-          <a href="#technologies">Tecnologías</a>
+          <a href="#projects">Proyectos</a>
         </nav>
       </header>
     </>
