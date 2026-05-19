@@ -5,13 +5,11 @@ import Footer from "../components/Footer";
 function HomeView() {
   return (
     <>
-      <div className="dark:bg-slate-900 dark:text-white">
-        <Header />
-        <div className="w-auto h-auto">
-          <HomeLayout />
-        </div>
-        <Footer />
+      <Header />
+      <div className="w-auto h-auto">
+        <HomeLayout />
       </div>
+      <Footer />
     </>
   );
 }
