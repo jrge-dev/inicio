@@ -23,7 +23,19 @@ function Header() {
           className="absolute right-4 dark:filter dark:invert  md:hidden"
           onClick={toggleMenu}
         >
-          {!isMenuOpen ? <img src={Menu} alt="" /> : <img src={Close} alt="" />}
+          {!isMenuOpen ? (
+            <img
+              src={Menu}
+              aria-label="Botón menú de opciones"
+              alt="Menú de opciones"
+            />
+          ) : (
+            <img
+              src={Close}
+              aria-label="Botón cerrar menú de opciones"
+              alt="Cerrar menú de opciones"
+            />
+          )}
         </button>
 
         <nav
