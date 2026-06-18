@@ -5,7 +5,7 @@ function Footer() {
   return (
     <footer className="flex flex-col bg-blue-500 text-white p-4">
       <div className="container mx-auto flex flex-col items-center">
-        <p className="text-center sm:text-left mb-4 ">© 2024 Jorge Moya.</p>
+        <p className="text-center sm:text-left mb-4 ">© 2026 Jorge Moya.</p>
         <div className="flex space-x-4 ">
           <a
             target="__blank"
