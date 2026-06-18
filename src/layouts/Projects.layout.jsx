@@ -8,7 +8,7 @@ import scriptAntenas from "../assets/script-antenas.png";
 import php from "../assets/php-logo.svg";
 import mysql from "../assets/mysql-logo.svg";
 import loguru from "../assets/logoru.webp";
-import pythonLogo from "../assets/python.svg";
+import pythonLogo from "../assets/python.webp";
 export default function ProjectsLayout() {
   const projects = [
     {
@@ -41,8 +41,8 @@ export default function ProjectsLayout() {
       description:
         "Herramienta desarrollada en Python para el monitoreo persistete de antenas activas. Permite la supervisión rápida y automatiza la creación de un historico con las lecturas generadas.",
       stack: [
-        { name: "PYTHON", icon: pythonLogo },
-        { name: "LOGURU", icon: loguru },
+        { name: "Python", icon: pythonLogo },
+        { name: "Loguru", icon: loguru },
       ],
       repository: "https://github.com/jrge-dev/geret-script-obtener-antenas",
     },

@@ -1,5 +1,5 @@
 import ReactIcon from "../assets/react-icon.svg";
-import PythonIcon from "../assets/python.svg";
+import PythonIcon from "../assets/python.webp";
 import GithubIcon from "../assets/github.svg";
 
 export default function Technologies() {

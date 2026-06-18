@@ -1,9 +1,9 @@
 function Card(promp) {
   return (
     <>
-      <div className="hover:shadow-lg transition duration-450 ease-in-out w-full h-full md:w-[500px] md:h-[750px] rounded-lg border dark:bg-slate-700 dark:text-white border-blue-500 p-5">
+      <div className="hover:shadow-lg transition duration-450 ease-in-out w-full h-full md:w-[500px] md:h-[750px] rounded-lg border dark:bg-slate-600 dark:text-white border-blue-500 p-5">
         <div className="flex flex-col text-xl justify-center">
-          <div className="w-full h-48 md:w-96 md:h-64 mx-auto overflow-hidden flex items-center justify-center bg-gray-100">
+          <div className="w-full h-48 md:w-96 md:h-64 mx-auto overflow-hidden flex items-center justify-center bg-gray-100 rounded-md">
             <img
               src={promp.image}
               alt="icon"
@@ -15,7 +15,7 @@ function Card(promp) {
           </p>
         </div>
         <div className="flex flex-col justify-between">
-          <p className="text-slate-600 w-fit h-40 dark:text-slate-400 text-sm leading-relaxed mb-2">
+          <p className="text-slate-600 w-fit h-40 dark:text-slate-200 text-sm leading-relaxed mb-2">
             {promp.description}
           </p>
 
@@ -36,7 +36,7 @@ function Card(promp) {
                       alt={tech.name}
                     />
                   </div>
-                  <span className="text-[12px] mt-1 font-medium text-slate-500 dark:text-slate-400 text-center">
+                  <span className="text-[12px] mt-1 font-medium text-slate-500 dark:text-slate-200 text-center">
                     {tech.name}
                   </span>
                 </div>
@@ -49,7 +49,7 @@ function Card(promp) {
               target="_blank"
               rel="noopener noreferrer"
               title="Ir a aplicación"
-              className="w-full p-2  text-center bg-black text-white rounded-lg hover:bg-gray-800 transition-colors duration-300 block"
+              className="w-full p-2 text-center bg-black text-white rounded-lg hover:bg-gray-800 transition-colors duration-300 block"
             >
               Ver en GitHub
             </a>
