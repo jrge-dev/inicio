@@ -35,7 +35,7 @@ function Home() {
                 Desarrollador de software
               </h3>
             </span>
-            <p className="text-slate-500 text-lg mt-4 max-w-md dark:text-slate-50 mx-auto lg:mx-0 leading-relaxed">
+            <p className="text-slate-500 mt-4 max-w-md dark:text-slate-50 mx-auto lg:mx-0 leading-relaxed">
               Apasionado por la lógica y el desarrollo backend. Diseño y
               construyo aplicaciones con un propósito claro: resolver problemas
               reales del día a día mediante soluciones tecnológicas eficientes.
