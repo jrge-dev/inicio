@@ -61,7 +61,7 @@ export default function Technologies() {
             {cat.items.map((tech) => (
               <div
                 key={tech.name}
-                className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 dark:bg-white/10 border border-gray-100 dark:border-white/5"
+                className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 dark:bg-white/70 border border-gray-100 dark:border-gray-100"
               >
                 <img
                   src={tech.icon}
