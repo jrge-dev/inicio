@@ -1,41 +1,81 @@
 import ReactIcon from "../assets/react-icon.svg";
 import PythonIcon from "../assets/python.webp";
 import GithubIcon from "../assets/github.svg";
+import OpenCodeIcon from "../assets/opencode.svg";
+import LinuxIcon from "../assets/linux.svg";
+import BrunoIcon from "../assets/bruno.svg";
+import FastApiIcon from "../assets/fast-api.svg";
+import PostgreIcon from "../assets/Postgressql.svg";
+import MySqlIcon from "../assets/mysql-logo.svg";
+import FlaskIcon from "../assets/flask.svg";
+import TailwindIcon from "../assets/tailwind.svg";
+import MongoIcon from "../assets/mongodb.svg";
 
 export default function Technologies() {
-  const mainTech = [
-    { icon: ReactIcon, name: "React" },
-    { icon: PythonIcon, name: "Python" },
-    { icon: GithubIcon, name: "GitHub" },
+  const categories = [
+    {
+      title: "Backend",
+      items: [
+        { name: "Python", icon: PythonIcon },
+        { name: "FastAPI", icon: FastApiIcon },
+        { name: "Flask", icon: FlaskIcon },
+      ],
+    },
+    {
+      title: "Frontend",
+      items: [
+        { name: "React", icon: ReactIcon },
+        { name: "Tailwind", icon: TailwindIcon },
+      ],
+    },
+    {
+      title: "Bases de Datos",
+      items: [
+        { name: "PostgreSQL", icon: PostgreIcon },
+        { name: "MySQL", icon: MySqlIcon },
+        { name: "MongoDB", icon: MongoIcon },
+      ],
+    },
+    {
+      title: "Herramientas",
+      items: [
+        { name: "GitHub", icon: GithubIcon },
+        { name: "OpenCode", icon: OpenCodeIcon },
+        { name: "Linux", icon: LinuxIcon },
+        { name: "Bruno", icon: BrunoIcon },
+      ],
+    },
   ];
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex flex-row justify-center space-x-12 mb-10">
-        {mainTech.map((tech, i) => (
-          <div key={i} className="flex flex-col items-center group">
-            <img
-              src={tech.icon}
-              className="w-10 h-10 md:w-12 md:h-12 object-contain"
-              alt={`${tech.name} Icon`}
-            />
-            <span className="mt-2 text-sm font-medium text-slate-500 uppercase tracking-tighter">
-              {tech.name}
-            </span>
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full max-w-2xl">
+      {categories.map((cat) => (
+        <div
+          key={cat.title}
+          className="bg-gray-50/80 dark:bg-white/20 backdrop-blur-sm rounded-xl p-5 border border-gray-200 dark:border-white/10"
+        >
+          <h4 className="text-xs font-bold uppercase tracking-widest text-slate-500 mb-3">
+            {cat.title}
+          </h4>
+          <div className="flex flex-wrap gap-3">
+            {cat.items.map((tech) => (
+              <div
+                key={tech.name}
+                className="inline-flex items-center gap-2 px-3 py-2 rounded-lg bg-white/70 dark:bg-white/10 border border-gray-100 dark:border-white/5"
+              >
+                <img
+                  src={tech.icon}
+                  className="w-5 h-5 object-contain"
+                  alt={tech.name}
+                />
+                <span className="text-sm font-medium text-slate-700 whitespace-nowrap">
+                  {tech.name}
+                </span>
+              </div>
+            ))}
           </div>
-        ))}
-      </div>
-
-      <div className="relative max-w-xs text-center">
-        <div className="absolute -top-4 left-1/2 -translate-x-1/2 w-8 h-[1px] bg-slate-200"></div>
-
-        <p className="text-xs md:text-sm text-slate-400 italic leading-relaxed">
-          Fiel creyente de que la tecnología es transitoria:
-          <span className="block font-medium text-slate-500 not-italic mt-1">
-            Adaptable a cualquier stack para resolver el problema correcto.
-          </span>
-        </p>
-      </div>
+        </div>
+      ))}
     </div>
   );
 }
