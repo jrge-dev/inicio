@@ -21,7 +21,7 @@ function AboutmeLayout() {
           que sean lógicas, eficientes y estratégicas.{" "}
         </p>
       </div>
-      <div className="w-full md:w-auto flex flex-col items-center bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
+      <div className="w-full md:max-w-md lg:max-w-lg flex flex-col items-center bg-slate-50 p-8 rounded-3xl border border-slate-100 shadow-sm">
         <h3
           id="technologies"
           className="font-bold text-xl mb-8 text-slate-800 uppercase tracking-widest text-center"
